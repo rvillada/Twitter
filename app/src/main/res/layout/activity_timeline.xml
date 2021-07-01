@@ -8,6 +8,7 @@
     tools:context=".TimelineActivity">
 
 
+
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/swipeContainer"
