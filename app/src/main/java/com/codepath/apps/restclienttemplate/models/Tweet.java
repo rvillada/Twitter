@@ -24,6 +24,7 @@ public class Tweet {
     // empty constructor needed by the Parceler library
     public Tweet() {}
 
+
     public static Tweet fromJson(JSONObject jsonObject) throws JSONException {
         Tweet tweet = new Tweet();
         tweet.body = jsonObject.getString("text");
@@ -43,6 +44,22 @@ public class Tweet {
             tweet.mediaURL = "";
         }
         return tweet;
+    }
+
+    public String getBody() {
+        return body;
+    }
+
+    public String getCreatedAt() {
+        return createdAt;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public String getMediaURL() {
+        return mediaURL;
     }
 
     public String getRelativeTimeAgo(String rawJsonDate) {
