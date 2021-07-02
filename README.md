@@ -58,7 +58,7 @@ GIF created with [Kap](https://getkap.co/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I found it difficult to embed included media. I think this was one of the features that we had the least guidance for so at first I felt overwhelmed because I knew the steps I needed to take in isolation, but I wasn't sure how certain pieces fit together. I think working through it helped my understanding a lot however. 
 
 ## Open-source libraries used
 
